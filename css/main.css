@@ -174,7 +174,7 @@ img {
     padding: 2rem;
     width: 70px;
     height: 70px;
-    line-height: 70px;
+    line-height: 170px;
     text-align: center;
     position: relative;
     transition: all 1s; }
@@ -184,7 +184,8 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background-color: #333; }
+        background-color: #333;
+        color: #fff; }
   #home-c .process-step {
     position: absolute;
     top: 0;
@@ -197,3 +198,22 @@ img {
     line-height: 15px;
     padding: 1rem;
     transition: all 1s; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem; }
+    #main-footer .footer-content .social .fa-brands {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
